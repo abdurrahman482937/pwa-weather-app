@@ -14,8 +14,7 @@ export default function App() {
     }
     return (
         <div className='main-container'>
-            <input type='text' className='search'
-                placeholder='Search...'
+            <input type='text' className='search' placeholder='Search...'
                 value={query}
                 onChange={(e) => {
                     setQuery(e.target.value)
